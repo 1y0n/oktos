@@ -35,3 +35,43 @@ Oktos 是一款红队后渗透平台，作为 XRED.TEAM 的一部分。它采用
 知道很多师傅也在借助 AI 开发自己的 C2，欢迎一起沟通交流心得。
 
 如果你想支持这个项目的持续发展，可以考虑加入我的知识星球，顺便解锁更强的免杀能力。星球拒绝黑灰加入，也无法接受定制开发。
+
+以下是一些截图和介绍：
+
+项目管理界面，平台使用“项目”区分不同的会话，不同项目中的会话和一些数据是相互独立的：
+<p align="center">
+  <img src="./assets/ProjectManagement.jpg">
+</p>
+
+载荷生成页面，目前支持 Windows（x86, amd64, shellcode）、Linux（amd64）、Webshell（.net）格式：
+<p align="center">
+  <img src="./assets/BeaconBuilder.jpg">
+</p>
+
+会话详情页面，对于 Windows 会话，默认使用 bof 执行指令，所以大部分命令不会出现子进程，避免基于进程链的检测：
+<p align="center">
+  <img src="./assets/SessionDetail.jpg">
+</p>
+
+<p align="center">
+  <img src="./assets/FileManager.jpg">
+</p>
+
+<p align="center">
+  <img src="./assets/Bofs.jpg">
+</p>
+
+攻击编排页面，将攻击路径可视化，你可以手动设定目标并执行，也可以完全交给 AI 规划和执行：
+<p align="center">
+  <img src="./assets/GoalManagement.jpg">
+</p>
+
+自动任务页面，会话初次回连时，可立即自动执行特定命令，防止会话丢失：
+<p align="center">
+  <img src="./assets/AutoExecute.jpg">
+</p>
+
+报告生成页面，借助 AI 自动生成报告：
+<p align="center">
+  <img src="./assets/ReportOutput.jpg">
+</p>
