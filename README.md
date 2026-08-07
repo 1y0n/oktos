@@ -75,3 +75,18 @@ Oktos 是一款红队后渗透平台，作为 XRED.TEAM 的一部分。它采用
 <p align="center">
   <img src="./assets/ReportOutput.jpg">
 </p>
+
+监听管理页面，支持http(s)直连，同时支持借助公有云渠道进行异步连接，使用可信域名隐藏自身：
+<p align="center">
+  <img src="./assets/ListenerManagement.jpg">
+</p>
+
+转发管理页面，可在不移动 teamserver 的情况下，快速切换监听 IP 地址：
+<p align="center">
+  <img src="./assets/ForwarderManagement.jpg">
+</p>
+
+防火墙页面，可配置多种规则保护 teamserver 自身：
+<p align="center">
+  <img src="./assets/Firewall.jpg">
+</p>
