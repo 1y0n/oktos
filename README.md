@@ -43,7 +43,7 @@ Oktos 是一款红队后渗透平台，作为 XRED.TEAM 的一部分。它采用
   <img src="./assets/ProjectManagement.jpg">
 </p>
 
-载荷生成页面，目前支持 Windows（x86, amd64, shellcode）、Linux（amd64）、Webshell（.net）、一句话命令格式：
+载荷生成页面，目前支持 Windows（x86, amd64, shellcode）、Linux（amd64）、Webshell（.net）、DLL 侧载（白加黑）、一句话命令格式：
 <p align="center">
   <img src="./assets/BeaconBuilder.jpg">
 </p>
