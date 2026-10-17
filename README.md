@@ -43,7 +43,7 @@ Oktos 是一款红队后渗透平台，作为 XRED.TEAM 的一部分。它采用
   <img src="./assets/ProjectManagement.jpg">
 </p>
 
-载荷生成页面，目前支持 Windows（x86, amd64, shellcode）、Linux（amd64）、Webshell（.net）、DLL 侧载（白加黑）、一句话命令格式：
+载荷生成页面，目前支持 Windows（x86, amd64, shellcode）、Linux（amd64）、Webshell（.net）、DLL 侧载（白加黑）、一句话命令格式、端口复用正向 beacon：
 <p align="center">
   <img src="./assets/BeaconBuilder.jpg">
 </p>
@@ -76,7 +76,7 @@ Oktos 是一款红队后渗透平台，作为 XRED.TEAM 的一部分。它采用
   <img src="./assets/ReportOutput.jpg">
 </p>
 
-监听管理页面，支持http(s)直连，同时支持借助公有云渠道进行异步连接，使用可信域名隐藏自身：
+监听管理页面，支持http(s)直连，同时支持借助公有云渠道进（OSS、COS、redis、rabbitMQ）行异步连接，使用可信域名隐藏自身：
 <p align="center">
   <img src="./assets/ListenerManagement.jpg">
 </p>
